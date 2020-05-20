@@ -192,7 +192,7 @@ data:[a-zA-Z=;,/0-9+-]+
 # hex digits including css/html color classes:
 (?:0[Xx]|[Uu]\+|#)[a-f0-9A-FGgRr]{2,}[Uu]?[Ll]{0,2}\b
 # uuid:
-\{[0-9A-FA-F]{8}-(?:[0-9A-FA-F]{4}-){3}[0-9A-FA-F]{12}\}
+[{"'][0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}['"}]
 # the negative lookahead here is to allow catching 'templatesz' as a misspelling
 # but to otherwise recognize a Windows path with \templates\foo.template or similar:
 \\templates(?![a-z])
