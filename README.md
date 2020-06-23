@@ -190,7 +190,7 @@ data:[a-zA-Z=;,/0-9+]+
 # c99 hex digits (not the full format, just one I've seen)
 0x[0-9a-fA-F](?:\.[0-9a-fA-F]*|)[pP]
 # hex digits including css/html color classes:
-(?:0[Xx]|U\+|#)[a-f0-9A-FGgRr]{2,}[Uu]?[Ll]{0,2}\b
+(?:0[Xx]|[Uu]\+|#)[a-f0-9A-FGgRr]{2,}[Uu]?[Ll]{0,2}\b
 # uuid:
 \{[0-9A-FA-F]{8}-(?:[0-9A-FA-F]{4}-){3}[0-9A-FA-F]{12}\}
 # the negative lookahead here is to allow catching 'templatesz' as a misspelling
