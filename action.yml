@@ -5,8 +5,9 @@ branding:
   icon: 'edit-3'
   color: 'red'
 inputs:
-  repo-token:
+  GITHUB_TOKEN:
     description: 'The GITHUB_TOKEN secret'
+    required: true
   bucket:
     description: 'Container for spelling configuration'
     required: true
