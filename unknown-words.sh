@@ -247,12 +247,8 @@ set_up_files() {
     cp "$dictionary_path" "$dict"
   fi
   if [ ! -s "$dict" ]; then
-    if [ -z "$DICTIONARY_VERSION" ]; then
-      DICTIONARY_VERSION=20200211
-    fi
-    if [ -z "$DICTIONARY_URL" ]; then
-      DICTIONARY_URL='https://raw.githubusercontent.com/check-spelling/check-spelling/dictionary-$DICTIONARY_VERSION/dict.txt'
-    fi
+    DICTIONARY_VERSION=${DICTIONARY_VERSION:-$INPUT_DICTIONARY_VERSION}
+    DICTIONARY_URL=${DICTIONARY_URL:-$INPUT_DICTIONARY_URL}
     eval download_or_quit_with_error "$DICTIONARY_URL" "$dict"
   fi
   get_project_files allow $allow_path
