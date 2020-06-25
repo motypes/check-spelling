@@ -7,6 +7,7 @@ branding:
 inputs:
   GITHUB_TOKEN:
     description: 'The GITHUB_TOKEN secret'
+    default: "${{ github.token }}"
     required: true
   bucket:
     description: 'Container for spelling configuration'
