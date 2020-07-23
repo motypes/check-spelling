@@ -190,6 +190,8 @@ Possible examples include:
 # YouTube
 https?://(?:(?:www\.|)youtube\.com|youtu.be)/(?:embed/|)[-a-zA-Z0-9?&=]*
 data:[a-zA-Z=;,/0-9+-]+
+# githubusercontent
+/[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
 # c99 hex digits (not the full format, just one I've seen)
 0x[0-9a-fA-F](?:\.[0-9a-fA-F]*|)[pP]
 # hex digits including css/html color classes:
