@@ -184,6 +184,8 @@ Tokens within files that match these expressions will be skipped.
 Possible examples include:
 
 ```
+# patch hunk comments
+^\@\@ -\d+(?:,\d+|) \+\d+(?:,\d+|) \@\@ .*
 # this is a comment
 # YouTube
 https?://(?:(?:www\.|)youtube\.com|youtu.be)/(?:embed/|)[-a-zA-Z0-9?&=]*
