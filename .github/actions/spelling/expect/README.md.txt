@@ -14,6 +14,7 @@ svg
 timeframe
 url
 uuid
+wiki
 workflow
 www
 xslx
