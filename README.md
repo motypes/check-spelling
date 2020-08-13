@@ -203,6 +203,8 @@ https://groups\.google\.com/d/topic/[^/]+/[a-zA-Z0-9]+/discussion
 \%[0-9A-F]{2}
 # c99 hex digits (not the full format, just one I've seen)
 0x[0-9a-fA-F](?:\.[0-9a-fA-F]*|)[pP]
+# sha-1
+"[0-9a-f]{40}"
 # hex digits including css/html color classes:
 (?:0[Xx]|[Uu]\+|#)[a-f0-9A-FGgRr]{2,}[Uu]?[Ll]{0,2}\b
 # uuid:
