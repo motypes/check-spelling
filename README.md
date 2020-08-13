@@ -199,6 +199,8 @@ https://groups\.google\.com/d/topic/[^/]+/[a-zA-Z0-9]+/discussion
 /github\.com/[^/]+/[^/]+/[^/]+/[0-9a-f]+\b
 # githubusercontent
 /[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
+# URL escaped characters
+\%[0-9A-F]{2}
 # c99 hex digits (not the full format, just one I've seen)
 0x[0-9a-fA-F](?:\.[0-9a-fA-F]*|)[pP]
 # hex digits including css/html color classes:
