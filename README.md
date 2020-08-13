@@ -206,6 +206,16 @@ data:[a-zA-Z=;,/0-9+-]+
 # Note that the next example is no longer necessary if you are using
 # to match a string starting with a `#`, use a character-class:
 [#]backwards
+# marker to ignore all code on line
+^.*/\* #no-spell-check-line \*/.*$
+# marker for ignoring a comment to the end of the line
+// #no-spell-check.*$
+# <word>v1
+v1(?:\b|(?=[a-z]))
+# curl arguments
+\b(?:)curl(?:\s+-[a-zA-Z]+)+
+# tar arguments
+\b(?:)tar(?:\s+-[a-zA-Z]+|\s[a-z]+)+
 ```
 
 ##### reject
