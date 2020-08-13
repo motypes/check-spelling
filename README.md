@@ -205,6 +205,8 @@ https://groups\.google\.com/d/topic/[^/]+/[a-zA-Z0-9]+/discussion
 0x[0-9a-fA-F](?:\.[0-9a-fA-F]*|)[pP]
 # sha-1
 "[0-9a-f]{40}"
+# hex in url queries
+=[0-9a-fA-F]+&
 # hex digits including css/html color classes:
 (?:0[xX]|[uU]\+|#)[0-9a-fA-FgGrR]{2,}[uU]?[lL]{0,2}\b
 # uuid:
