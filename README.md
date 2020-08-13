@@ -189,6 +189,7 @@ Possible examples include:
 # this is a comment
 # YouTube
 https?://(?:(?:www\.|)youtube\.com|youtu.be)/(?:embed/|)[-a-zA-Z0-9?&=]*
+# data urls
 data:[a-zA-Z=;,/0-9+-]+
 # githubusercontent
 /[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
