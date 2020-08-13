@@ -195,6 +195,8 @@ data:[a-zA-Z=;,/0-9+-]+
 /docs\.google\.com/[a-z]+/d/(?:e/|)[0-9a-zA-Z_-]+/
 # Google Groups
 https://groups\.google\.com/d/topic/[^/]+/[a-zA-Z0-9]+/discussion
+# GitHub SHAs
+/github\.com/[^/]+/[^/]+/[^/]+/[0-9a-f]+\b
 # githubusercontent
 /[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
 # c99 hex digits (not the full format, just one I've seen)
