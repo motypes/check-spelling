@@ -191,6 +191,10 @@ Possible examples include:
 https?://(?:(?:www\.|)youtube\.com|youtu.be)/(?:embed/|)[-a-zA-Z0-9?&=]*
 # data urls
 data:[a-zA-Z=;,/0-9+-]+
+# Google Docs
+/docs\.google\.com/[a-z]+/d/(?:e/|)[0-9a-zA-Z_-]+/
+# Google Groups
+https://groups\.google\.com/d/topic/[^/]+/[a-zA-Z0-9]+/discussion
 # githubusercontent
 /[a-z-]+\.githubusercontent\.com/[-a-zA-Z0-9?&=_\/.]*
 # c99 hex digits (not the full format, just one I've seen)
