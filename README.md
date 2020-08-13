@@ -206,7 +206,7 @@ https://groups\.google\.com/d/topic/[^/]+/[a-zA-Z0-9]+/discussion
 # sha-1
 "[0-9a-f]{40}"
 # hex digits including css/html color classes:
-(?:0[Xx]|[Uu]\+|#)[a-f0-9A-FGgRr]{2,}[Uu]?[Ll]{0,2}\b
+(?:0[xX]|[uU]\+|#)[0-9a-fA-FgGrR]{2,}[uU]?[lL]{0,2}\b
 # uuid:
 [{"'][0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}['"}]
 # the negative lookahead here is to allow catching 'templatesz' as a misspelling
